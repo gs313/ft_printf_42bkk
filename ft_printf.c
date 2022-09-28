@@ -1,20 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: scharuka <scharuka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/08/30 10:59:31 by scharuka          #+#    #+#             */
-/*   Updated: 2022/09/28 09:33:32 by scharuka         ###   ########.fr       */
+/*   Created: 2022/09/28 09:29:47 by scharuka          #+#    #+#             */
+/*   Updated: 2022/09/28 09:34:08 by scharuka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#ifndef FT_PRINTF_H
-# define FT_PRINTF_H
-#include <unistd.h>
-#include <stdio.h>
 
-typedef struct data_s {
-}data;
-int	ft_printf(const char *, ...);
-#endif
+#include"ft_printf.h"
+
+int	ft_printf(const char *format, ...)
+{
+	int val;
+	return val;
+}
